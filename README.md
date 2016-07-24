@@ -24,7 +24,7 @@
  7. In postman app select DELETE - use link: [localhost:8080/api/serverinfo/{id}] 
  	Run Step 4 again to verify that server is deleted.
  	
- 8. In postman app select PUT - use link: [localhost:8080/api/serverinfo/]
+ 8. In postman app select PUT - use link: [localhost:8080/api/serverinfo/{id}]
  	{"id":2,"name":"newtestServer","cpus":6,"ram":12,"status":"Building","diskspace":120}
  	Run Step 4 again to verify that ram and diskspace for server 2 are updated.
  
